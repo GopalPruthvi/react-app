@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 500px;  
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: green;
+  background-color: rgb(196, 192, 192);
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.search-form{
+  margin: 30px auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.search-box{
+  color: #fff;
+  background: rgb(196, 192, 192);
+  border: none;
+  font-size: 15px;
+  font-family: inherit;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.movie {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
